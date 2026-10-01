@@ -1,0 +1,18 @@
+#logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+ 
+.bgImgCenter{
+    background-image: url(../img/fooldal-hatter.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+body{
+    color: white;
+    background-color: black;
+    background-size: cover;
+}

@@ -8,6 +8,113 @@ body {
     border-radius: 50%;
 }
 
+.bgImgCenter{
+    background-image: url(../img/fooldal-hatter.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+
+
+.movie-slider {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 20px;
+}
+
+.movie-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.movie-page {
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.movie-page.active {
+    display: grid;
+}
+
+/* Animáció jobbra lapozásnál */
+.movie-page.slide-left {
+    animation: slideLeft 0.5s ease;
+}
+
+.movie-page.slide-right {
+    animation: slideRight 0.5s ease;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.movie-card .card {
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.movie-card .card-body {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.slider-button {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #fffb00;
+    color: black;
+
+    font-size: 25px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.2s;
+}
+
+.slider-button:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.kartyak {
+    justify-content: center;
+    gap: 50px;
+}
 
 
 

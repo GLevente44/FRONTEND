@@ -1,0 +1,65 @@
+body {
+    background-image: url(../img/fooldal-hatter.jpg);
+    background-position: center;
+}
+
+
+#logo {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+#logo-signin {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline;
+}
+
+#left-content {
+    background: rgba(0, 0, 0, 0.58);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.3px);
+    -webkit-backdrop-filter: blur(10.3px);
+    height: 700px;
+    width: 450px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 400px;
+
+}
+
+#signin-text {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+#signin-text2 {
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#signin-text3{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+
+.signin-list {
+    color: white;
+    margin-left: 25px;
+}
+
+#active {
+    color: yellow;
+}
+
+

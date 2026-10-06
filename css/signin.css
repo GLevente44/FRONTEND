@@ -17,17 +17,18 @@ body {
     display: inline;
 }
 
+
 #left-content {
     background: rgba(0, 0, 0, 0.58);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10.3px);
     -webkit-backdrop-filter: blur(10.3px);
-    height: 700px;
+    height: 800px;
     width: 450px;
     float: left;
-    margin-top: 100px;
-    margin-left: 400px;
+    margin-top: 50px;
+    margin-left: 500px;
 
 }
 
@@ -61,5 +62,57 @@ body {
 #active {
     color: yellow;
 }
+
+#bottom-text {
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    rotate: 1 1 0 40deg;
+}
+
+
+#right-content {
+    background-color: black;
+    height: 800px;
+    width: 450px;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-right: 500px;
+    float: right;
+}
+
+#urlap {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.label {
+    color: white;
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: yellow;
+}
+
+#signin-btn {
+    text-align: center;
+    margin-right: 25px;
+    text-align: center;
+    width: 400px;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+
 
 
